@@ -34,14 +34,30 @@
         height: 400px;
         padding: 200px;
         // background-color: #FFFFE0;
-        border-radius: 10px;
         position: absolute;
         bottom: 10px;
         right: 250px;
-        box-shadow: 5px 5px 20px black;
     }
     .inputbox {
         width: 400px;
+    }
+    label {
+        align-items: right;
+        font-weight: bold;
+    }
+    .btn-container{
+        position: relative;
+        width: 400px;
+        .btn {
+            margin-top: 20px;
+        }
+        .error {
+            left: 200px;
+            position: absolute;
+            top: 32px;
+            right: opx;
+            color: red;
+        }
     }
 
     
